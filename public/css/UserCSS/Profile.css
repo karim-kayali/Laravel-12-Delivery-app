@@ -1,0 +1,125 @@
+/* General Page Background */
+body {
+    background-color: #f8f9fa; /* Light background color for the whole page */
+}
+
+/* White background for profile container */
+.container-white-bg {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for the container */
+}
+
+/* Title Section */
+h1 {
+    color: #304364; /* Navy blue color for the profile title */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Back Button Styling */
+.btn-danger {
+    background-color: #dc3545; /* Red background for the Back button */
+    color: white;
+    font-size: 1.2rem; /* Adjust font size for better visibility */
+    padding: 12px 20px; /* Increase padding for a larger button */
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block; /* Ensure it's inline */
+    margin-bottom: 15px; /* Add some margin for spacing */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Title Section */
+.text-center {
+    display: flex;
+    justify-content: space-between; /* Space between title and button */
+    align-items: center; /* Align items vertically */
+}
+
+/* Edit Button Styling */
+.btn-edit {
+    padding: 12px 20px; /* Increased padding to make the button bigger */
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: black;
+    font-size: 1.5rem; /* Increased font size for better visibility */
+    border: none;
+    cursor: pointer;
+    margin-left: auto; /* Push the button to the right */
+}
+
+.btn-edit:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+
+/* Form Fields Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+.updateLabel {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+.updateInput {
+    border-color: #ddd !important; /* Light border color */
+    color: #495057 !important; /* Dark text color for inputs */
+    background-color: #f8f9fa; /* Light background for inputs */
+    padding: 12px 15px; /* Added padding to inputs for better text visibility */
+    font-size: 1rem; /* Consistent font size */
+}
+
+/* Add focus style for input fields */
+.updateInput:focus {
+    border-color: #304364; /* Dark blue border when focused */
+    box-shadow: 0 0 5px rgba(48, 67, 100, 0.5); /* Light shadow on focus */
+    background-color: #ffffff; /* Ensure background becomes white when focused */
+    color: #495057; /* Ensure text color stays dark while focused */
+}
+
+/* Button Styling for Update and Cancel */
+.btn-primary {
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: white;
+}
+
+/* Error Messages Section */
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-danger ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.alert-danger ul li {
+    font-size: 1rem;
+}
+
+/* Ensure form fields are aligned and nicely spaced */
+.form-group {
+    margin-bottom: 20px;
+}

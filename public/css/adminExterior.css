@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to right, #041d37, #051c34); /* Deep blue */
+
+}
+
+h1 {
+    color: white;
+}
+
+.navbar-container {
+    padding: 20px 50px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-text span {
+    font-weight: normal;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    padding: 10px 30px;
+    gap: 30px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+}
+
+.navbar-menu .dropdown i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.navbar-social a {
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+
+.navbar-social a:hover {
+    opacity: 0.7;
+}
+
+.login-btn {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding:3px 10px
+}
+
+.login-btn:hover {
+    color: darkblue;
+    background-color: white;
+ }

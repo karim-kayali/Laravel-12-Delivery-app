@@ -1,0 +1,19 @@
+body {
+    color: white;
+}
+
+.updateLabel {
+    margin-bottom: 10px;
+}
+
+.updateInput {
+    border-color: white ;
+    color: white;
+}
+
+.userName:hover {
+    text-decoration: underline;
+}
+
+
+
